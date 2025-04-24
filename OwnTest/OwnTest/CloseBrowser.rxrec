@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="55fff63a-d050-4ce5-a3a6-a9cd92cfe697"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="OwnTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="1000ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="1264678f-a808-455f-b888-791bfc6f88bd">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9ebacf0c-f15e-4b1e-b006-9d4a2b446f87"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='demoqa.com']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="ddfc0507-47ae-49f6-8e31-658e7afff86d"
+	name="OwnTestRepository"
+	relativepath="OwnTestRepository.rxrep">
+		<codegen
+		classname="OwnTestRepository"
+		namespace="OwnTest">
+		</codegen>
+		<rootfolder
+		id="e2c85e03-6898-42bb-9704-9b7516a9fce5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

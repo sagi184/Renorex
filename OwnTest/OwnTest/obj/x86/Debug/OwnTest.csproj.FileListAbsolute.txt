@@ -1,0 +1,24 @@
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\bin\Debug\OwnTest.rxtmg
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\bin\Debug\OwnTest.rxtst
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\bin\Debug\OwnTest.exe.config
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\bin\Debug\OwnTest.xml
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\bin\Debug\OwnTest.exe
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\bin\Debug\OwnTest.pdb
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\obj\x86\Debug\OwnTest.csproj.AssemblyReference.cache
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\obj\x86\Debug\OwnTest.csproj.CoreCompileInputs.cache
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\obj\x86\Debug\OwnTest.csproj.CopyComplete
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\obj\x86\Debug\OwnTest.exe
+C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\obj\x86\Debug\OwnTest.pdb
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\bin\Debug\OwnTest.rxtmg
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\bin\Debug\OwnTest.rxtst
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\bin\Debug\OwnTest.exe.config
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\bin\Debug\OwnTest.xml
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\bin\Debug\OwnTest.exe
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\bin\Debug\OwnTest.pdb
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\obj\x86\Debug\OwnTest.csproj.AssemblyReference.cache
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\obj\x86\Debug\OwnTest.csproj.CoreCompileInputs.cache
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\obj\x86\Debug\OwnTest.csproj.CopyComplete
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\obj\x86\Debug\OwnTest.exe
+C:\Users\SagChavan\Ranorex\OwnTest\OwnTest\obj\x86\Debug\OwnTest.pdb

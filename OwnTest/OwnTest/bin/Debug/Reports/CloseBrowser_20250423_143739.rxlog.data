@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.82s"
+		durationms="8817"
+		type="root"
+		rid="9c873775b34f6e0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SagChavan"
+		rxversion="12.1.4.0"
+		host="INPHWN181249"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2025 2:37:43 PM"
+		timestampiso="2025-04-23T09:07:43"
+		endtime="4/23/2025 2:37:52 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.174"
+			timeRelativeToTestModuleStartTime="00:06.174"
+			timeWallClock="14:37:49"
+			time="00:06.174"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'DEMOQA'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\CloseBrowser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

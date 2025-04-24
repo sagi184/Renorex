@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OwnTest</name>
+    </assembly>
+    <members>
+        <member name="T:OwnTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:OwnTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the OwnTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:OwnTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:OwnTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:OwnTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:OwnTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:OwnTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:OwnTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:OwnTest.OwnTestRepository">
+            <summary>
+            The class representing the OwnTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the OwnTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:OwnTest.OwnTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepository.DEMOQA">
+            <summary>
+            The DEMOQA folder.
+            </summary>
+        </member>
+        <member name="T:OwnTest.OwnTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder">
+            <summary>
+            The DEMOQAAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DEMOQA  folder.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.CardUp">
+            <summary>
+            The CardUp item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.CardUpInfo">
+            <summary>
+            The CardUp item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.UserName">
+            <summary>
+            The UserName item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.UserNameInfo">
+            <summary>
+            The UserName item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.UserEmail">
+            <summary>
+            The UserEmail item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.UserEmailInfo">
+            <summary>
+            The UserEmail item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.PermanentAddress">
+            <summary>
+            The PermanentAddress item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.PermanentAddressInfo">
+            <summary>
+            The PermanentAddress item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.RctIconRctIconUncheck">
+            <summary>
+            The RctIconRctIconUncheck item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.RctIconRctIconUncheckInfo">
+            <summary>
+            The RctIconRctIconUncheck item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.YouHaveSelected">
+            <summary>
+            The YouHaveSelected item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.YouHaveSelectedInfo">
+            <summary>
+            The YouHaveSelected item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.NoRadio">
+            <summary>
+            The NoRadio item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.NoRadioInfo">
+            <summary>
+            The NoRadio item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.DoubleClickBtn">
+            <summary>
+            The DoubleClickBtn item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.DoubleClickBtnInfo">
+            <summary>
+            The DoubleClickBtn item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.RightClickBtn">
+            <summary>
+            The RightClickBtn item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.RightClickBtnInfo">
+            <summary>
+            The RightClickBtn item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.NEyDU">
+            <summary>
+            The NEyDU item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.NEyDUInfo">
+            <summary>
+            The NEyDU item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.MenuList">
+            <summary>
+            The MenuList folder.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.DEMOQAAppFolder.CategoryCards">
+            <summary>
+            The CategoryCards folder.
+            </summary>
+        </member>
+        <member name="T:OwnTest.OwnTestRepositoryFolders.MenuListFolder">
+            <summary>
+            The MenuListFolder folder.
+            </summary>
+        </member>
+        <member name="M:OwnTest.OwnTestRepositoryFolders.MenuListFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MenuList  folder.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.TextBox">
+            <summary>
+            The TextBox item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.TextBoxInfo">
+            <summary>
+            The TextBox item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.CheckBox">
+            <summary>
+            The CheckBox item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.CheckBoxInfo">
+            <summary>
+            The CheckBox item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.RadioButton">
+            <summary>
+            The RadioButton item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.RadioButtonInfo">
+            <summary>
+            The RadioButton item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.WebTables">
+            <summary>
+            The WebTables item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.WebTablesInfo">
+            <summary>
+            The WebTables item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.Buttons">
+            <summary>
+            The Buttons item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.MenuListFolder.ButtonsInfo">
+            <summary>
+            The Buttons item info.
+            </summary>
+        </member>
+        <member name="T:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder">
+            <summary>
+            The CategoryCardsFolder folder.
+            </summary>
+        </member>
+        <member name="M:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CategoryCards  folder.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.Col12ColMd6Mt4">
+            <summary>
+            The Col12ColMd6Mt4 item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.Col12ColMd6Mt4Info">
+            <summary>
+            The Col12ColMd6Mt4 item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.LabelTagYes">
+            <summary>
+            The LabelTagYes item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.LabelTagYesInfo">
+            <summary>
+            The LabelTagYes item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.Cierra">
+            <summary>
+            The Cierra item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.CierraInfo">
+            <summary>
+            The Cierra item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.Impressive">
+            <summary>
+            The Impressive item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.ImpressiveInfo">
+            <summary>
+            The Impressive item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.Impressive1">
+            <summary>
+            The Impressive1 item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.Impressive1Info">
+            <summary>
+            The Impressive1 item info.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.SpanTagYes">
+            <summary>
+            The SpanTagYes item.
+            </summary>
+        </member>
+        <member name="P:OwnTest.OwnTestRepositoryFolders.CategoryCardsFolder.SpanTagYesInfo">
+            <summary>
+            The SpanTagYes item info.
+            </summary>
+        </member>
+        <member name="T:OwnTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:OwnTest.Recording1.repo">
+            <summary>
+            Holds an instance of the OwnTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:OwnTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:OwnTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:OwnTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:OwnTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:OwnTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:OwnTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:OwnTest.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:OwnTest.Recording2.repo">
+            <summary>
+            Holds an instance of the OwnTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:OwnTest.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:OwnTest.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:OwnTest.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:OwnTest.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:OwnTest.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:OwnTest.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

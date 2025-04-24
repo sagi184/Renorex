@@ -1,0 +1,315 @@
+﻿<repository
+id="ddfc0507-47ae-49f6-8e31-658e7afff86d"
+name="OwnTestRepository">
+	<codegen
+	classname="OwnTestRepository"
+	namespace="OwnTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e2c85e03-6898-42bb-9704-9b7516a9fce5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="9ebacf0c-f15e-4b1e-b006-9d4a2b446f87"
+		isrooted="True"
+		name="DEMOQA"
+		refimgid="4a1fad92-88a1-45df-82f7-e084a8e6144a"
+		refpath="/dom[@domain='demoqa.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e5820fd0-94a0-43cb-81b4-6d28731733a8"
+			name="CardUp"
+			refimgid="77eb347c-f572-49fd-8b96-ee5030d51bda"
+			refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div[2]/div/div[1]/div/div[1]"
+			robustPath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div[2]/div/div[1]/div/div[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//div[#'app']/div/div/div[2]/div/div[1]/div/div[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bd8d5490-82bd-45a8-b3e7-2c6a7beb94e6"
+			name="UserName"
+			refimgid="1107ba12-abc0-4ab5-88c1-f16ea404cb0f"
+			refpath="/dom[@domain='demoqa.com']//input[#'userName']"
+			robustPath="/dom[@domain='demoqa.com']//input[#'userName']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//input[#'userName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="14832f90-57f7-43b0-b8ca-f77c21b0764d"
+			name="UserEmail"
+			refimgid="074b86ee-6c30-41d1-abd7-66f0efcae8f6"
+			refpath="/dom[@domain='demoqa.com']//input[#'userEmail']"
+			robustPath="/dom[@domain='demoqa.com']//input[#'userEmail']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//input[#'userEmail']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="08b44309-5485-4be6-bd69-e6edbeb97e70"
+			name="PermanentAddress"
+			refimgid="23929e25-0c06-403e-aca1-593beeb64e9c"
+			refpath="/dom[@domain='demoqa.com']//textarea[#'permanentAddress']"
+			robustPath="/dom[@domain='demoqa.com']//textarea[#'permanentAddress']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//textarea[#'permanentAddress']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="55bc434c-f65c-4444-816a-89c1aeb0f6a0"
+			name="Submit"
+			refimgid="920cdb45-481c-4dbf-aaf7-2e06d981b9a0"
+			refpath="/dom[@domain='demoqa.com']//button[#'submit']"
+			robustPath="/dom[@domain='demoqa.com']//button[#'submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//button[#'submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,svgtag"
+			capname="svgtag"
+			id="2d7623a7-33d0-47c2-b50b-1d1df66cd519"
+			name="RctIconRctIconUncheck"
+			refimgid="13b888ac-6147-41c9-9082-1410bfa0b3a5"
+			refpath="/dom[@domain='demoqa.com']//div[#'tree-node']/ol/li/span/label/span[1]/svg"
+			robustPath="/dom[@domain='demoqa.com']//div[#'tree-node']//label/span[1]/svg"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//div[#'tree-node']/ol//label/span[1]/svg
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="693bce69-6051-49f4-8642-2f2fe18f58d5"
+			name="YouHaveSelected"
+			refimgid="9601b878-d81d-4302-9914-445bcf63a054"
+			refpath="/dom[@domain='demoqa.com']//div[#'result']/span[@innertext='You have selected :']"
+			robustPath="/dom[@domain='demoqa.com']//div[#'result']/span[@innertext='You have selected :']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//div[#'result']/span[@innertext='You have selected :']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c70e571e-c744-4013-9956-836392800fd0"
+			name="NoRadio"
+			refimgid="3203eb72-9fb5-4de7-9e38-3d6c2d8955de"
+			refpath="/dom[@domain='demoqa.com']//input[#'noRadio']"
+			robustPath="/dom[@domain='demoqa.com']//input[#'noRadio']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//input[#'noRadio']
+			</item>
+			<folder
+			capname="ultag"
+			id="74975da2-1e3b-4368-ae55-bd97a810cafc"
+			isrooted="True"
+			name="MenuList"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="6e7d283b-a56e-48bd-956a-98853a08d995"
+				name="TextBox"
+				refimgid="1639094b-8a9a-43f2-9035-da6eecc5f2fd"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/div/ul/li[1]/span[@innertext='Text Box']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//span[@innertext='Text Box']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[1]/span[@innertext='Text Box']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="5dc9ff30-1b7f-4218-8c63-193b404e8c23"
+				name="CheckBox"
+				refimgid="73af7367-925f-43b9-a03e-b94539602770"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/div/ul/li[2]/span[@innertext='Check Box']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//span[@innertext='Check Box']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[2]/span[@innertext='Check Box']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="5b1f2d6f-fb1c-4ab6-980d-5ccb47e6cee8"
+				name="RadioButton"
+				refimgid="41a1fcf2-26c6-4156-973c-6f1772bdaa8e"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/div/ul/li[3]/span[@innertext='Radio Button']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//span[@innertext='Radio Button']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[3]/span[@innertext='Radio Button']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="782a9751-c036-4fb3-b994-2620b8e13131"
+				name="WebTables"
+				refimgid="4a69eeb7-9642-4b8c-84e5-e0c39b9ac14c"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/div/ul/li[4]/span[@innertext='Web Tables']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//span[@innertext='Web Tables']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[4]/span[@innertext='Web Tables']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="412543e1-12e7-40d6-a4b4-e6ead002ac88"
+				name="Buttons"
+				refimgid="800d5052-7520-4209-8a97-0330811941a4"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/div/ul/li[5]/span[@innertext='Buttons']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[5]/span[@innertext='Buttons']
+				</item>
+				<basepath>
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="28f737b7-c85e-4f05-b092-a7e6eb5b4729"
+			isrooted="True"
+			name="CategoryCards"
+			refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div[2]/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="4fc9d32b-1f50-4f70-b6af-e9f3aab9c254"
+				name="Col12ColMd6Mt4"
+				refimgid="1ef0666e-8fe5-4827-a435-85a6d27513b6"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="086528c7-7bbe-47ba-8647-1d375048561a"
+				name="LabelTagYes"
+				refimgid="8a30abd7-e431-4acd-baa1-4461b85ed095"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[2]/label[@innertext='Yes']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//label[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[2]/label[@innertext='Yes']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="59a663d2-3c6e-424f-ba58-df3e5cb3394f"
+				name="Cierra"
+				refimgid="5b4ba84d-a1f8-467b-9bbd-417420a7becf"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[@innertext='Cierra']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//div[@innertext='Cierra']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/?/?/div[@innertext='Cierra']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="c91b843f-9e11-4093-83ca-ce5fdd35a26d"
+				name="Impressive"
+				refimgid="92fdbe83-c6c1-44c9-b6b0-3136c6260af4"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[3]/label[@innertext='Impressive']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//label[@innertext='Impressive']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[3]/label[@innertext='Impressive']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="c3fbc628-24c1-49eb-95d6-ab533e6bc149"
+				name="Impressive1"
+				refimgid="fef62b1c-64fd-4d3d-bfbb-ea86ae2cac59"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Impressive']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//span[@innertext='Impressive']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Impressive']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="d63613ae-a623-4d7c-ae88-27a9f34d9dbd"
+				name="SpanTagYes"
+				refimgid="4e77f6de-8ecf-4195-b396-c0309754254d"
+				refpath="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Yes']"
+				robustPath="/dom[@domain='demoqa.com']//div[#'app']//span[@innertext='Yes']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Yes']
+				</item>
+				<basepath>
+					/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="5b2531f6-b8f4-4dce-a93e-bb9fa912cb07"
+			name="DoubleClickBtn"
+			refimgid="81d8f515-a85b-4eba-81f1-1f100c5d245f"
+			refpath="/dom[@domain='demoqa.com']//button[#'doubleClickBtn']"
+			robustPath="/dom[@domain='demoqa.com']//button[#'doubleClickBtn']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//button[#'doubleClickBtn']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="4acbdbdf-ef15-493a-a6f9-18d60786ebfa"
+			name="RightClickBtn"
+			refimgid="94606964-cd2a-4035-a272-078ac83e7c63"
+			refpath="/dom[@domain='demoqa.com']//button[#'rightClickBtn']"
+			robustPath="/dom[@domain='demoqa.com']//button[#'rightClickBtn']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//button[#'rightClickBtn']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="d276485b-e7ae-434c-93e9-643800a85875"
+			name="NEyDU"
+			refimgid="00129652-7425-4914-8df3-80c1215cdda8"
+			refpath="/dom[@domain='demoqa.com']//button[#'nEyDU']"
+			robustPath="/dom[@domain='demoqa.com']//button[#'nEyDU']"
+			searchtimeout="30000ms">
+				/dom[@domain='demoqa.com']//button[#'nEyDU']
+			</item>
+			<basepath>
+				/dom[@domain='demoqa.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKElEQVQ4T43R20uTcRzHcS/6G4Kgyy6KKKjwJogIFiTGYFS0ZBeK
+lAMrM8ss1BaZFzqZudQ84SGxRVOH62AHtZIcQTIP6VZTW6JMppub87DzO56n9EIfow98r57n8/rx
++30TEv6mqeMTdYYeKlu7KW80U1LTwX29gQLtE3KLG8jSVLP+r2SE8r+Sr20Rsc29jQgnR6Lxzb2N
+CIB9yrU9oms0EwpLA9FYXASOKS6Lk5iUvhUR7rwa3ApEY4jwyloM/3IUpzsiDQgPtg54VhaoNneh
+N3VS0J5JeXszjlk/Hn8E2/SaNCDcTThBKGt7SxmN27DGBymy3uBonpFLVa8ZcS4yNLEsDQir8gVi
+1Hb1kv9NQZNXTa3VQFqZi5MVbvY1n0LXVc+X8YA0IOx5wRflwaM+Uk3JqN7KydI5ya6AwzUadnbs
+5nThNfpHfNKA+vZDXN4I9x47KKj4TGqbEnlvEcoyH2cyb7Hr7g6O56TzftArDaTllDIzH6baOI5a
+CyqtkUPmPSSWKUi++JL98quU1tbzyuKRBlKuFOOcC2GfXORmyTAH8+rYW3gAWcZ1jihNnFU/483A
+HKb+eWngXIYGx0xQXJXV7kHX2saJC4XIUvRUtrwTy5axAMYPbmlAnnYH+3QQlzfMtDvE5Owatl+r
+4tq+fl/GMrbEx+Gl7YEkVS4Do4t09k3xvOcnT7snaHnxgwaTnZp2G1XGP1NpdEgDsvPZ4of/nfXe
+bzRtKw4VLqRIAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

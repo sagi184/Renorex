@@ -1,0 +1,1142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="70914"
+		type="root"
+		rid="a43e0439ad53ffc"
+		totalerrorcount="1"
+		totalwarningcount="4"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="SagChavan"
+		rxversion="12.1.4.0"
+		host="INPHWN181249"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="4/23/2025 2:38:14 PM"
+		timestampiso="2025-04-23T09:08:14"
+		endtime="4/23/2025 2:39:25 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.782"
+			timeRelativeToTestModuleStartTime="00:05.782"
+			timeWallClock="14:38:19"
+			time="00:05.782"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.CardUp' at 197;72.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div[2]/div/div[1]/div/div[1]"
+				itempath=".//div[#'app']/div/div/div[2]/div/div[1]/div/div[1]"
+				fullname="OwnTestRepository.DEMOQA.CardUp"
+				id="e5820fd094a043cb81b46d28731733a8"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.549"
+			timeRelativeToTestModuleStartTime="00:11.549"
+			timeWallClock="14:38:25"
+			time="00:11.549"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_9574f896\Recordin_91d686dd_rxlog.jpg"
+			errthumb="images_Recordin_9574f896\Recordin_91d686dd_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.132"
+			timeRelativeToTestModuleStartTime="00:12.132"
+			timeWallClock="14:38:26"
+			time="00:12.132"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.MenuList.TextBox' at 73;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[1]/span[@innertext='Text Box']"
+				itempath="li[1]/span[@innertext='Text Box']"
+				fullname="OwnTestRepository.DEMOQA.MenuList.TextBox"
+				id="6e7d283ba56e48bd956a98853a08d995"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.031"
+			timeRelativeToTestModuleStartTime="00:14.031"
+			timeWallClock="14:38:28"
+			time="00:14.031"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DEMOQA' at 1905;180.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.963"
+			timeRelativeToTestModuleStartTime="00:14.963"
+			timeWallClock="14:38:29"
+			time="00:14.963"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DEMOQA' at 1906;411.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.739"
+			timeRelativeToTestModuleStartTime="00:15.739"
+			timeWallClock="14:38:29"
+			time="00:15.739"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.UserName' at 57;42.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'userName']"
+				itempath=".//input[#'userName']"
+				fullname="OwnTestRepository.DEMOQA.UserName"
+				id="bd8d549082bd45a8b3e72c6a7beb94e6"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.645"
+			timeRelativeToTestModuleStartTime="00:16.645"
+			timeWallClock="14:38:30"
+			time="00:16.645"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'navf' with focus on 'DEMOQA.UserName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'userName']"
+				itempath=".//input[#'userName']"
+				fullname="OwnTestRepository.DEMOQA.UserName"
+				id="bd8d549082bd45a8b3e72c6a7beb94e6"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.255"
+			timeRelativeToTestModuleStartTime="00:17.255"
+			timeWallClock="14:38:31"
+			time="00:17.255"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ab' with focus on 'DEMOQA'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.714"
+			timeRelativeToTestModuleStartTime="00:17.714"
+			timeWallClock="14:38:31"
+			time="00:17.714"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'c' with focus on 'DEMOQA'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="113"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.126"
+			timeRelativeToTestModuleStartTime="00:18.126"
+			timeWallClock="14:38:32"
+			time="00:18.126"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.UserEmail' at 112;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'userEmail']"
+				itempath=".//input[#'userEmail']"
+				fullname="OwnTestRepository.DEMOQA.UserEmail"
+				id="14832f9057f743b0b8caf77c21b0764d"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="118"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.062"
+			timeRelativeToTestModuleStartTime="00:19.062"
+			timeWallClock="14:38:33"
+			time="00:19.062"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}@{LShiftKey up}gmail.bij' with focus on 'DEMOQA.UserEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'userEmail']"
+				itempath=".//input[#'userEmail']"
+				fullname="OwnTestRepository.DEMOQA.UserEmail"
+				id="14832f9057f743b0b8caf77c21b0764d"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="122"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.794"
+			timeRelativeToTestModuleStartTime="00:19.794"
+			timeWallClock="14:38:33"
+			time="00:19.794"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.UserEmail' at 152;122.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'userEmail']"
+				itempath=".//input[#'userEmail']"
+				fullname="OwnTestRepository.DEMOQA.UserEmail"
+				id="14832f9057f743b0b8caf77c21b0764d"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="126"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.221"
+			timeRelativeToTestModuleStartTime="00:20.221"
+			timeWallClock="14:38:34"
+			time="00:20.221"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_9574f896\Recordin_67186dd_rxlog.jpg"
+			errthumb="images_Recordin_9574f896\Recordin_67186dd_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="127"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.747"
+			timeRelativeToTestModuleStartTime="00:20.747"
+			timeWallClock="14:38:34"
+			time="00:20.747"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'zsdv' with focus on 'DEMOQA'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="130"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.246"
+			timeRelativeToTestModuleStartTime="00:21.246"
+			timeWallClock="14:38:35"
+			time="00:21.246"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.PermanentAddress' at 84;64.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//textarea[#'permanentAddress']"
+				itempath=".//textarea[#'permanentAddress']"
+				fullname="OwnTestRepository.DEMOQA.PermanentAddress"
+				id="08b4430954854be6bd69e6edbeb97e70"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="135"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.164"
+			timeRelativeToTestModuleStartTime="00:22.164"
+			timeWallClock="14:38:36"
+			time="00:22.164"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'swdrr' with focus on 'DEMOQA.PermanentAddress'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//textarea[#'permanentAddress']"
+				itempath=".//textarea[#'permanentAddress']"
+				fullname="OwnTestRepository.DEMOQA.PermanentAddress"
+				id="08b4430954854be6bd69e6edbeb97e70"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="139"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.807"
+			timeRelativeToTestModuleStartTime="00:22.807"
+			timeWallClock="14:38:37"
+			time="00:22.807"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DEMOQA' at 1906;313.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="143"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.612"
+			timeRelativeToTestModuleStartTime="00:23.612"
+			timeWallClock="14:38:37"
+			time="00:23.612"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DEMOQA' at 1912;430.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="148"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.400"
+			timeRelativeToTestModuleStartTime="00:24.400"
+			timeWallClock="14:38:38"
+			time="00:24.400"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.Submit' at 59;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//button[#'submit']"
+				itempath=".//button[#'submit']"
+				fullname="OwnTestRepository.DEMOQA.Submit"
+				id="55bc434cf65c4444816a89c1aeb0f6a0"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="153"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.313"
+			timeRelativeToTestModuleStartTime="00:25.313"
+			timeWallClock="14:38:39"
+			time="00:25.313"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.MenuList.CheckBox' at 59;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[2]/span[@innertext='Check Box']"
+				itempath="li[2]/span[@innertext='Check Box']"
+				fullname="OwnTestRepository.DEMOQA.MenuList.CheckBox"
+				id="5dc9ff301b7f42188c63193b404e8c23"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="157"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.262"
+			timeRelativeToTestModuleStartTime="00:26.262"
+			timeWallClock="14:38:40"
+			time="00:26.262"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down 5}' with focus on 'DEMOQA'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="161"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.841"
+			timeRelativeToTestModuleStartTime="00:26.841"
+			timeWallClock="14:38:41"
+			time="00:26.841"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.RctIconRctIconUncheck' at 14;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'tree-node']/ol//label/span[1]/svg"
+				itempath=".//div[#'tree-node']/ol//label/span[1]/svg"
+				fullname="OwnTestRepository.DEMOQA.RctIconRctIconUncheck"
+				id="2d7623a733d047c2b50b1d1df66cd519"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="166"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.813"
+			timeRelativeToTestModuleStartTime="00:27.813"
+			timeWallClock="14:38:42"
+			time="00:27.813"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='You have selected :') on item 'DEMOQA.YouHaveSelected'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'result']/span[@innertext='You have selected :']"
+				itempath=".//div[#'result']/span[@innertext='You have selected :']"
+				fullname="OwnTestRepository.DEMOQA.YouHaveSelected"
+				id="693bce69605149f486422f2fe18f58d5"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="170"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.189"
+			timeRelativeToTestModuleStartTime="00:28.189"
+			timeWallClock="14:38:42"
+			time="00:28.189"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'OwnTestRepository.DEMOQA.YouHaveSelected' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'result']/span[@innertext='You have selected :']"
+				itempath=".//div[#'result']/span[@innertext='You have selected :']"
+				fullname="OwnTestRepository.DEMOQA.YouHaveSelected"
+				id="693bce69605149f486422f2fe18f58d5"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="171"
+				loglvl="Success"
+				itemindex="20">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.295"
+			timeRelativeToTestModuleStartTime="00:28.295"
+			timeWallClock="14:38:42"
+			time="00:28.295"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.MenuList.RadioButton' at 83;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[3]/span[@innertext='Radio Button']"
+				itempath="li[3]/span[@innertext='Radio Button']"
+				fullname="OwnTestRepository.DEMOQA.MenuList.RadioButton"
+				id="5b1f2d6ffb1c4ab6980d5ccb47e6cee8"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="174"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.197"
+			timeRelativeToTestModuleStartTime="00:29.197"
+			timeWallClock="14:38:43"
+			time="00:29.197"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DEMOQA' at 1907;166.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="178"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.045"
+			timeRelativeToTestModuleStartTime="00:30.045"
+			timeWallClock="14:38:44"
+			time="00:30.045"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DEMOQA' at 1904;364.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="183"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.802"
+			timeRelativeToTestModuleStartTime="00:30.802"
+			timeWallClock="14:38:45"
+			time="00:30.802"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.CategoryCards.LabelTagYes' at -26;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[2]/label[@innertext='Yes']"
+				itempath="div[2]/div[2]/label[@innertext='Yes']"
+				fullname="OwnTestRepository.DEMOQA.CategoryCards.LabelTagYes"
+				id="086528c77bbe47ba86471d375048561a"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="188"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.201"
+			timeRelativeToTestModuleStartTime="00:31.201"
+			timeWallClock="14:38:45"
+			time="00:31.201"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_9574f896\Recordin_7b0c86dd_rxlog.jpg"
+			errthumb="images_Recordin_9574f896\Recordin_7b0c86dd_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="189"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.679"
+			timeRelativeToTestModuleStartTime="00:31.679"
+			timeWallClock="14:38:45"
+			time="00:31.679"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.CategoryCards.Col12ColMd6Mt4' at 702;851.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]"
+				itempath=""
+				fullname="OwnTestRepository.DEMOQA.CategoryCards.Col12ColMd6Mt4"
+				id="4fc9d32b1f504f70b6afe9f3aab9c254"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="192"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.479"
+			timeRelativeToTestModuleStartTime="00:32.479"
+			timeWallClock="14:38:46"
+			time="00:32.479"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Yes') on item 'DEMOQA.CategoryCards.SpanTagYes'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Yes']"
+				itempath="div[2]/p[@innertext='You have selected ']/span[@innertext='Yes']"
+				fullname="OwnTestRepository.DEMOQA.CategoryCards.SpanTagYes"
+				id="d63613aea6234d7cae8827a9f34d9dbd"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="196"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.874"
+			timeRelativeToTestModuleStartTime="00:32.874"
+			timeWallClock="14:38:47"
+			time="00:32.874"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'OwnTestRepository.DEMOQA.CategoryCards.SpanTagYes' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Yes']"
+				itempath="div[2]/p[@innertext='You have selected ']/span[@innertext='Yes']"
+				fullname="OwnTestRepository.DEMOQA.CategoryCards.SpanTagYes"
+				id="d63613aea6234d7cae8827a9f34d9dbd"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="197"
+				loglvl="Success"
+				itemindex="26">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.980"
+			timeRelativeToTestModuleStartTime="00:32.980"
+			timeWallClock="14:38:47"
+			time="00:32.980"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.CategoryCards.Impressive' at -18;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/div[3]/label[@innertext='Impressive']"
+				itempath="div[2]/div[3]/label[@innertext='Impressive']"
+				fullname="OwnTestRepository.DEMOQA.CategoryCards.Impressive"
+				id="c91b843f9e11409383cace5fdd35a26d"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="200"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.504"
+			timeRelativeToTestModuleStartTime="00:33.504"
+			timeWallClock="14:38:47"
+			time="00:33.504"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_9574f896\Recordin_efa786dd_rxlog.jpg"
+			errthumb="images_Recordin_9574f896\Recordin_efa786dd_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="201"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.998"
+			timeRelativeToTestModuleStartTime="00:33.998"
+			timeWallClock="14:38:48"
+			time="00:33.998"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Impressive') on item 'DEMOQA.CategoryCards.Impressive1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Impressive']"
+				itempath="div[2]/p[@innertext='You have selected ']/span[@innertext='Impressive']"
+				fullname="OwnTestRepository.DEMOQA.CategoryCards.Impressive1"
+				id="c3fbc62824c149eb95d6ab533e6bc149"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="204"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.385"
+			timeRelativeToTestModuleStartTime="00:34.385"
+			timeWallClock="14:38:48"
+			time="00:34.385"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'OwnTestRepository.DEMOQA.CategoryCards.Impressive1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[2]/div[2]/p[@innertext='You have selected ']/span[@innertext='Impressive']"
+				itempath="div[2]/p[@innertext='You have selected ']/span[@innertext='Impressive']"
+				fullname="OwnTestRepository.DEMOQA.CategoryCards.Impressive1"
+				id="c3fbc62824c149eb95d6ab533e6bc149"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="205"
+				loglvl="Success"
+				itemindex="28">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.490"
+			timeRelativeToTestModuleStartTime="00:34.490"
+			timeWallClock="14:38:48"
+			time="00:34.490"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='False') on item 'DEMOQA.NoRadio'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'noRadio']"
+				itempath=".//input[#'noRadio']"
+				fullname="OwnTestRepository.DEMOQA.NoRadio"
+				id="c70e571ec74440139956836392800fd0"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="208"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.867"
+			timeRelativeToTestModuleStartTime="00:34.867"
+			timeWallClock="14:38:49"
+			time="00:34.867"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'OwnTestRepository.DEMOQA.NoRadio' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'noRadio']"
+				itempath=".//input[#'noRadio']"
+				fullname="OwnTestRepository.DEMOQA.NoRadio"
+				id="c70e571ec74440139956836392800fd0"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="209"
+				loglvl="Success"
+				itemindex="29">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.974"
+			timeRelativeToTestModuleStartTime="00:34.974"
+			timeWallClock="14:38:49"
+			time="00:34.974"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Value='on') on item 'DEMOQA.NoRadio'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'noRadio']"
+				itempath=".//input[#'noRadio']"
+				fullname="OwnTestRepository.DEMOQA.NoRadio"
+				id="c70e571ec74440139956836392800fd0"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="212"
+				itemindex="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.391"
+			timeRelativeToTestModuleStartTime="00:35.391"
+			timeWallClock="14:38:49"
+			time="00:35.391"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Value' of element for item 'OwnTestRepository.DEMOQA.NoRadio' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//input[#'noRadio']"
+				itempath=".//input[#'noRadio']"
+				fullname="OwnTestRepository.DEMOQA.NoRadio"
+				id="c70e571ec74440139956836392800fd0"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="213"
+				loglvl="Success"
+				itemindex="30">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.501"
+			timeRelativeToTestModuleStartTime="00:35.501"
+			timeWallClock="14:38:49"
+			time="00:35.501"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.MenuList.WebTables' at 96;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[4]/span[@innertext='Web Tables']"
+				itempath="li[4]/span[@innertext='Web Tables']"
+				fullname="OwnTestRepository.DEMOQA.MenuList.WebTables"
+				id="782a9751c0364fb3b9942620b8e13131"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="216"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.445"
+			timeRelativeToTestModuleStartTime="00:36.445"
+			timeWallClock="14:38:50"
+			time="00:36.445"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA' at 1909;140.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="220"
+				itemindex="32"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.129"
+			timeRelativeToTestModuleStartTime="00:37.129"
+			timeWallClock="14:38:51"
+			time="00:37.129"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.MenuList.Buttons' at 48;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//div[#'app']/div/div/div/div[1]/div/div/div[1]/?/?/ul/li[5]/span[@innertext='Buttons']"
+				itempath="li[5]/span[@innertext='Buttons']"
+				fullname="OwnTestRepository.DEMOQA.MenuList.Buttons"
+				id="412543e112e740d6a4b4e6ead002ac88"
+				timeout="90000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="224"
+				itemindex="33"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.026"
+			timeRelativeToTestModuleStartTime="00:38.026"
+			timeWallClock="14:38:52"
+			time="00:38.026"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DEMOQA' at 1910;212.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="228"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.861"
+			timeRelativeToTestModuleStartTime="00:38.861"
+			timeWallClock="14:38:53"
+			time="00:38.861"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DEMOQA' at 1901;397.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']"
+				itempath="/dom[@domain='demoqa.com']"
+				fullname="OwnTestRepository.DEMOQA.Self"
+				id="9ebacf0cf15e4b1eb0069d4a2b446f87"
+				timeout="30000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="233"
+				itemindex="35"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.643"
+			timeRelativeToTestModuleStartTime="00:39.643"
+			timeWallClock="14:38:53"
+			time="00:39.643"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'DEMOQA.DoubleClickBtn' at 100;41.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//button[#'doubleClickBtn']"
+				itempath=".//button[#'doubleClickBtn']"
+				fullname="OwnTestRepository.DEMOQA.DoubleClickBtn"
+				id="5b2531f6b8f44dcea93ebb9fa912cb07"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="238"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.566"
+			timeRelativeToTestModuleStartTime="00:40.566"
+			timeWallClock="14:38:54"
+			time="00:40.566"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Right Click item 'DEMOQA.RightClickBtn' at 105;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//button[#'rightClickBtn']"
+				itempath=".//button[#'rightClickBtn']"
+				fullname="OwnTestRepository.DEMOQA.RightClickBtn"
+				id="4acbdbdfef15493aa6f918d60786ebfa"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="242"
+				itemindex="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.430"
+			timeRelativeToTestModuleStartTime="00:41.430"
+			timeWallClock="14:38:55"
+			time="00:41.430"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DEMOQA.NEyDU' at 96;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='demoqa.com']//button[#'nEyDU']"
+				itempath=".//button[#'nEyDU']"
+				fullname="OwnTestRepository.DEMOQA.NEyDU"
+				id="d276485be7ae434c93e9643800a85875"
+				timeout="60000"
+				codefile="C:\Users\SagChavan\Documents\Ranorex\RanorexStudio Projects\OwnTest\OwnTest\Recording1.cs"
+				codeline="246"
+				itemindex="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.914"
+			timeRelativeToTestModuleStartTime="01:10.914"
+			timeWallClock="14:39:25"
+			time="01:10.914"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
